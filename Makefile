@@ -1,13 +1,7 @@
-all: lab2 sleepTest
+all: lab2
 
 lab2: shell.o 
 	gcc -o lab2 shell.o
-
-sleepTest: sleep.o
-	gcc -o sleepTest sleep.o
-
-sleep.o: sleep.c
-	gcc -c sleep.c
 
 shell.o: shell.c
 	gcc -c shell.c
