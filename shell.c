@@ -89,12 +89,7 @@ int main(void)
 
         setup(iBuffer, args, &bgrnd);       /* Get next command */
         printf("%s %s\n", iBuffer, *args);
-
-	/* Fill in the code for these steps:  
-	 (1) Fork a child process using fork(),
-	 (2) The child process will invoke execvp(),
-	 (3) If bgrnd == 0, the parent will wait, 
-		o/w continues. */
+	    
 
 	/*Fork Child Process*/
 	pid_t pid;
